@@ -1,5 +1,5 @@
-SRC=ft_strcat.s
-OBJ=ft_strcat.o
+SRC=ft_isalpha.s
+OBJ=ft_isalpha.o
 all:
 	nasm -f elf64 -o $(OBJ) $(SRC)
 	gcc -c main.c
